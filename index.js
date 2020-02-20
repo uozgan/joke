@@ -19,7 +19,7 @@ const page = `<html>
 </body>
 </html>`
 
-const port = 3000;
+const port = PORT || 3000;
 
 app.listen(port, confirmation);
 
