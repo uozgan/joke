@@ -2,7 +2,7 @@ const express = require('express');
 
 const app = express();
 
-app.get("/", onRequest)
+app.get("", onRequest)
 
 function onRequest(request, response){
   response.send(page);
