@@ -11,10 +11,15 @@ function onRequest(request, response){
 const page = `<html>
 <head>
 <title>Utku Ozgan</title>
-</head>
-<body>
-<h1>What do you call a pig that does karate?</h1>
 
+<style> h1{text-align: center}
+p{text-align: center; font-size: 20px}
+.tek{background-color: orange;}
+</style>
+</head>
+<body class="tek">
+<h1>What do you call a pig that does karate?</h1>
+<br><br><br>
 <p>A pork chop</p>
 </body>
 </html>`
